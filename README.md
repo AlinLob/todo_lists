@@ -1,8 +1,29 @@
-# React + Vite
+# Todo List 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Это приложение для управления списком задач (Todo List), которое позволяет добавлять задачи, помечать их как выполненные, фильтровать и удалять. Реализовано с использованием React и стилей из Bootstrap для создания удобного и адаптивного интерфейса.
 
-Currently, two official plugins are available:
+## Ссылка на приложение
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Посмотреть приложения можно по следующей ссылке:
+
+[Todo List App](http://alinlob.github.io/todo_lists/)
+
+## Как запустить проект локально
+
+1. Клонируйте репозиторий:
+   ```bash
+   git clone git@github.com:AlinLob/todo_lists.git
+   ```
+2. Перейдите в директорию проекта:
+   ```bash
+   cd todo_lists
+   ```
+3. Установите все необходимые зависимости:
+   ```bash
+   npm install
+   ```
+4. Запустите приложение:
+   ```bash
+   npm start
+   ```
+Откроется приложение по адресу http://localhost:3000
